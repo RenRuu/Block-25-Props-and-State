@@ -85,6 +85,41 @@ State management is a very important paradigm to understand in Web Development.
             );
         }
 
+----------------------------------------
+
+ref: https://www.youtube.com/watch?v=IYvD9oBCuJI 
+
+Props - arguments to a function 
+    when you create a component inside of react and you want to render it. You're going to pass it the props that you want to give to it.
+
+    Example 
+        We have a counter application
+            Thing your most likely going to pass to that counter is the initial count. Essentially what your count should start at.
+            
+            So your going to pass your counter component it's initial count inside of the props. The reason we are using the props like this is because props is kind of for things that you pass to a function. 
+
+            There what you want to initialize your component to or what you want your component to render like. We want our initial count to be zero so we're gonna pass that through in the props.
+
+State - something inside of a component 
+
+Big difference between props and state is:
+- state is handled in the component and you can update it inside the component (inside of the component)
+    *If you change state your application will re-rended the section
+    *Stores information and changes it 
+- props are handled outside the component and must be updated outside of the component (pass into a component)
+    *Displays information inside of a component without hard coding it 
+
+Essentially, it's a variable to a function or when you create a class with a constructor. The things you pass to the constructor of that class are going to be the things that are your props for a component in react.
+
+
+State 
+    Page has title and description > but changes when you select something > stores the data and updates to the new details 
+
+Props
+    Page has title and description > information passes down from the parent and doesn't change inside the component
+
+
+
 
 
 
